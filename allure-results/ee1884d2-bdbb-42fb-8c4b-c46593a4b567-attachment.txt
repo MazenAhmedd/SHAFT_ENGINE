@@ -1,0 +1,26 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.2.20210427]
+################################################################################################################################################
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @03-05-2021 21:31:01.0703 PM
+[ReportManager] Attempting to run locally on: [Windows-64], [GoogleChrome]. @03-05-2021 21:31:01.0875 PM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @03-05-2021 21:31:01.0879 PM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 2] test cases in the current suite
+Test Method:		[nopcommerce_project.gui_tests.PlaceOrderTest.userSignUp]
+################################################################################################################################################
+
+################################################################################################################################################
+Starting Execution:	[2 out of 2] test cases in the current suite
+Test Method:		[nopcommerce_project.gui_tests.PlaceOrderTest.userCanPlaceOrder]
+################################################################################################################################################
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @03-05-2021 21:31:09.0684 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.2.20210427]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
