@@ -1,0 +1,26 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 2] test cases in the current suite
+Test Method:		[nopcommerce_project.gui_tests.PlaceOrderTest.userSignUp]
+################################################################################################################################################
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20210505-004158", Target File: "\1620168138918_userSignUp.gif"]. @05-05-2021 00:42:19.0028 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Register]. @05-05-2021 00:42:22.0273 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [M]. @05-05-2021 00:42:23.0281 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Milagro]. @05-05-2021 00:42:23.0944 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Mosciski]. @05-05-2021 00:42:24.0612 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [18]. @05-05-2021 00:42:25.0854 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [12]. @05-05-2021 00:42:26.0818 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [1992]. @05-05-2021 00:42:30.0129 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [marcos.harber@yahoo.com]. @05-05-2021 00:42:30.0712 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Altenwerth Inc]. @05-05-2021 00:42:31.0267 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [4dd9SKTo]. @05-05-2021 00:42:32.0085 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [4dd9SKTo]. @05-05-2021 00:42:32.0631 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [REGISTER]. @05-05-2021 00:42:37.0038 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Your registration completed]. @05-05-2021 00:42:37.0477 AM
+[ReportManager] AssertEquals PASSED; Expected [Your registration completed] and Actual [Your registration completed]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:42:37.0539 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Your registration completed]. @05-05-2021 00:42:38.0040 AM
+[ReportManager] Loaded Shared OpenCV @05-05-2021 00:42:42.0651 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'Your registration completed' for the 'text' attribute, element locator 'By.xpath: //div[contains(text(),'Your registration completed')]'] and Actual [Your registration completed]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:42:43.0428 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620168158210_userSignUp_AssertElementAttribute_passed] @05-05-2021 00:42:43.0470 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Log out]. @05-05-2021 00:42:48.0192 AM
+[ReportManager] Successfully created attachment [Animated Gif - userSignUp] @05-05-2021 00:42:48.0214 AM

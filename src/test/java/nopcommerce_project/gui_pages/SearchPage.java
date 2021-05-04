@@ -8,19 +8,16 @@ import org.openqa.selenium.WebDriver;
 public class SearchPage {
 
     private WebDriver driver;
-
     public SearchPage(WebDriver driver) {
         this.driver = driver;
     }
+
     // Elements
     private By productLnk = By.xpath("//h2/a[contains(.,'Apple MacBook Pro 13-inch')]");
-
-
     //Actions
     public void navigateToProductInfoPage(){
         ElementActions.click(driver, productLnk);
     }
-
     //Validations
     public void verifyTheProductLink(){
         Assertions.assertTrue

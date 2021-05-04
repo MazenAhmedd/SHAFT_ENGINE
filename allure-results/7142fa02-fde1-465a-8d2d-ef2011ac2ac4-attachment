@@ -1,0 +1,15 @@
+[2021-05-05T00:42:09+0200] [INFO] https://demo.nopcommerce.com/bundles/tpj1sx-_aa1mubz4x0qd5oo_n_tkirf7i-t7yx7fzn4.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:42:21+0200] [INFO] https://demo.nopcommerce.com/bundles/3wghvjmkda9cgnzwb7g8e83skfdtqwsu6mffkgn2s3m.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:42:21+0200] [FINE] https://demo.nopcommerce.com/register?returnUrl=%2F - [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o
+[2021-05-05T00:42:21+0200] [FINE] https://demo.nopcommerce.com/register?returnUrl=%2F - [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o
+[2021-05-05T00:42:36+0200] [INFO] https://demo.nopcommerce.com/bundles/3wghvjmkda9cgnzwb7g8e83skfdtqwsu6mffkgn2s3m.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:42:47+0200] [INFO] https://demo.nopcommerce.com/bundles/tpj1sx-_aa1mubz4x0qd5oo_n_tkirf7i-t7yx7fzn4.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:42:50+0200] [INFO] https://demo.nopcommerce.com/bundles/3wghvjmkda9cgnzwb7g8e83skfdtqwsu6mffkgn2s3m.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:42:50+0200] [FINE] https://demo.nopcommerce.com/login?returnUrl=%2F - [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+[2021-05-05T00:42:55+0200] [INFO] https://demo.nopcommerce.com/bundles/tpj1sx-_aa1mubz4x0qd5oo_n_tkirf7i-t7yx7fzn4.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:42:59+0200] [INFO] https://demo.nopcommerce.com/bundles/hjvfnfzul8qjdfrqosgy-qyognnelg7tgzzwikgxlrm.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:43:05+0200] [INFO] https://demo.nopcommerce.com/bundles/dmrfa5r6yo66gwzsumdcys2lyfkb0e00rq18oih8eng.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:43:14+0200] [INFO] https://demo.nopcommerce.com/bundles/tpt9hfuxmagj5s8lnvztudpzaez6m9rogyiwejhk2hc.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:43:19+0200] [INFO] https://demo.nopcommerce.com/bundles/c9315m1oiujqlv7unpk0dh3gg9qophrnkip0is8qml8.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:43:57+0200] [INFO] https://demo.nopcommerce.com/bundles/3wghvjmkda9cgnzwb7g8e83skfdtqwsu6mffkgn2s3m.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"
+[2021-05-05T00:44:00+0200] [INFO] https://demo.nopcommerce.com/bundles/3wghvjmkda9cgnzwb7g8e83skfdtqwsu6mffkgn2s3m.min.js 12:1468 "JQMIGRATE: Migrate is installed, version 3.3.2"

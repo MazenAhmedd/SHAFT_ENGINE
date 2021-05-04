@@ -1,0 +1,129 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.2.20210427]
+################################################################################################################################################
+[ReportManager] File Action [getAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @05-05-2021 00:42:00.0724 AM
+[ReportManager] Attempting to run locally on: [Windows-64], [GoogleChrome]. @05-05-2021 00:42:00.0846 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @05-05-2021 00:42:00.0856 AM
+[ReportManager] Successfully Opened Google Chrome. @05-05-2021 00:42:05.0929 AM
+[ReportManager] Target URL: [https://demo.nopcommerce.com/] @05-05-2021 00:42:06.0021 AM
+[ReportManager] Initial URL: [data:,] @05-05-2021 00:42:06.0352 AM
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20210505-004158", Target File: "\1620168131736_beforeClass.gif"]. @05-05-2021 00:42:12.0551 AM
+[ReportManager] Browser Action [navigateToURL] successfully performed. With the following test data [https://demo.nopcommerce.com/]. @05-05-2021 00:42:13.0550 AM
+[ReportManager] Successfully created attachment [Animated Gif - beforeClass] @05-05-2021 00:42:17.0257 AM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 2] test cases in the current suite
+Test Method:		[nopcommerce_project.gui_tests.PlaceOrderTest.userSignUp]
+################################################################################################################################################
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20210505-004158", Target File: "\1620168138918_userSignUp.gif"]. @05-05-2021 00:42:19.0028 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Register]. @05-05-2021 00:42:22.0273 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [M]. @05-05-2021 00:42:23.0281 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Milagro]. @05-05-2021 00:42:23.0944 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Mosciski]. @05-05-2021 00:42:24.0612 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [18]. @05-05-2021 00:42:25.0854 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [12]. @05-05-2021 00:42:26.0818 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [1992]. @05-05-2021 00:42:30.0129 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [marcos.harber@yahoo.com]. @05-05-2021 00:42:30.0712 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Altenwerth Inc]. @05-05-2021 00:42:31.0267 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [4dd9SKTo]. @05-05-2021 00:42:32.0085 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [4dd9SKTo]. @05-05-2021 00:42:32.0631 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [REGISTER]. @05-05-2021 00:42:37.0038 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Your registration completed]. @05-05-2021 00:42:37.0477 AM
+[ReportManager] AssertEquals PASSED; Expected [Your registration completed] and Actual [Your registration completed]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:42:37.0539 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Your registration completed]. @05-05-2021 00:42:38.0040 AM
+[ReportManager] Loaded Shared OpenCV @05-05-2021 00:42:42.0651 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'Your registration completed' for the 'text' attribute, element locator 'By.xpath: //div[contains(text(),'Your registration completed')]'] and Actual [Your registration completed]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:42:43.0428 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620168158210_userSignUp_AssertElementAttribute_passed] @05-05-2021 00:42:43.0470 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Log out]. @05-05-2021 00:42:48.0192 AM
+[ReportManager] Successfully created attachment [Animated Gif - userSignUp] @05-05-2021 00:42:48.0214 AM
+
+################################################################################################################################################
+Starting Execution:	[2 out of 2] test cases in the current suite
+Test Method:		[nopcommerce_project.gui_tests.PlaceOrderTest.userCanPlaceOrder]
+################################################################################################################################################
+[ReportManager] File Action [createFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20210505-004158", Target File: "\1620168168897_userCanPlaceOrder.gif"]. @05-05-2021 00:42:48.0959 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Log in]. @05-05-2021 00:42:51.0411 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [marcos.harber@yahoo.com]. @05-05-2021 00:42:52.0012 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [4dd9SKTo]. @05-05-2021 00:42:52.0567 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [true]. @05-05-2021 00:42:53.0431 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [LOG IN]. @05-05-2021 00:42:56.0772 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Apple MacBook Pro 13-inch]. @05-05-2021 00:42:57.0495 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [SEARCH]. @05-05-2021 00:42:59.0648 AM
+[ReportManager] Element Action [isElementDisplayed] successfully performed. @05-05-2021 00:42:59.0978 AM
+[ReportManager] AssertTrue PASSED; Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @05-05-2021 00:42:59.0978 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Apple MacBook Pro 13-inch]. @05-05-2021 00:43:00.0341 AM
+[ReportManager] Loaded Shared OpenCV @05-05-2021 00:43:00.0495 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'Apple MacBook Pro 13-inch' for the 'text' attribute, element locator 'By.xpath: //h2/a[contains(.,'Apple MacBook Pro 13-inch')]'] and Actual [Apple MacBook Pro 13-inch]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:43:00.0764 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620168180495_userCanPlaceOrder_AssertElementAttribute_passed] @05-05-2021 00:43:00.0780 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Apple MacBook Pro 13-inch]. @05-05-2021 00:43:06.0301 AM
+[ReportManager] Element Action [isElementDisplayed] successfully performed. @05-05-2021 00:43:06.0695 AM
+[ReportManager] AssertTrue PASSED; Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @05-05-2021 00:43:06.0696 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Apple MacBook Pro 13-inch]. @05-05-2021 00:43:07.0113 AM
+[ReportManager] AssertEquals PASSED; Expected [Apple MacBook Pro 13-inch] and Actual [Apple MacBook Pro 13-inch]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:43:07.0113 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Apple MacBook Pro 13-inch]. @05-05-2021 00:43:07.0530 AM
+[ReportManager] Loaded Shared OpenCV @05-05-2021 00:43:07.0691 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'Apple MacBook Pro 13-inch' for the 'text' attribute, element locator 'By.xpath: //h1[contains(text(),'Apple MacBook Pro 13-inch')]'] and Actual [Apple MacBook Pro 13-inch]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:43:08.0026 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620168187691_userCanPlaceOrder_AssertElementAttribute_passed] @05-05-2021 00:43:08.0031 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [10]. @05-05-2021 00:43:08.0707 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [ADD TO CART]. @05-05-2021 00:43:09.0730 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Shopping cart (10)]. @05-05-2021 00:43:14.0647 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Shopping cart]. @05-05-2021 00:43:15.0113 AM
+[ReportManager] Loaded Shared OpenCV @05-05-2021 00:43:15.0237 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'Shopping cart' for the 'text' attribute, element locator 'By.xpath: //h1[contains(text(),'Shopping cart')]'] and Actual [Shopping cart]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:43:15.0560 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620168195237_userCanPlaceOrder_AssertElementAttribute_passed] @05-05-2021 00:43:15.0560 AM
+[ReportManager] Attempting to getAttribute [value] from elementLocator [By.xpath: //td[@class='quantity']/input]. @05-05-2021 00:43:15.0560 AM
+[ReportManager] Element Action [getAttribute] successfully performed. With the following test data [10]. @05-05-2021 00:43:15.0993 AM
+[ReportManager] Loaded Shared OpenCV @05-05-2021 00:43:16.0131 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be '10' for the 'value' attribute, element locator 'By.xpath: //td[@class='quantity']/input'] and Actual [10]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:43:16.0430 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620168196131_userCanPlaceOrder_AssertElementAttribute_passed] @05-05-2021 00:43:16.0432 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [on]. @05-05-2021 00:43:17.0280 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [CHECKOUT]. @05-05-2021 00:43:20.0515 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Ship to the same address]. @05-05-2021 00:43:20.0909 AM
+[ReportManager] Loaded Shared OpenCV @05-05-2021 00:43:21.0053 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'Ship to the same address' for the 'text' attribute, element locator 'By.xpath: //label[contains(text(),'Ship to the same address')]'] and Actual [Ship to the same address]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:43:21.0342 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620168201053_userCanPlaceOrder_AssertElementAttribute_passed] @05-05-2021 00:43:21.0342 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [true]. @05-05-2021 00:43:22.0328 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Milagro]. @05-05-2021 00:43:22.0945 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Mosciski]. @05-05-2021 00:43:23.0578 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [marcos.harber@yahoo.com]. @05-05-2021 00:43:24.0194 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Altenwerth Inc]. @05-05-2021 00:43:24.0849 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [Netherlands]. @05-05-2021 00:43:30.0527 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Phnom Penh]. @05-05-2021 00:43:32.0849 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [7196 Angeles Loaf, West Adela, NE 84066]. @05-05-2021 00:43:33.0450 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [13163 Claud Walk, New Terrymouth, DE 28230]. @05-05-2021 00:43:34.0073 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [77853-5159]. @05-05-2021 00:43:34.0869 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [524.532.9538]. @05-05-2021 00:43:35.0486 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [651-753-3587 x486]. @05-05-2021 00:43:36.0071 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [CONTINUE]. @05-05-2021 00:43:36.0956 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [CONTINUE]. @05-05-2021 00:43:39.0464 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Next Day Air___Shipping.FixedByWeightByTotal]. @05-05-2021 00:43:41.0584 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [CONTINUE]. @05-05-2021 00:43:42.0486 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Payments.Manual]. @05-05-2021 00:43:44.0117 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [CONTINUE]. @05-05-2021 00:43:45.0012 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [Mazen Ahmed]. @05-05-2021 00:43:47.0323 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [371449635398431]. @05-05-2021 00:43:47.0919 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [12]. @05-05-2021 00:43:48.0821 AM
+[ReportManager] Element Action [select] successfully performed. With the following test data [2025]. @05-05-2021 00:43:49.0492 AM
+[ReportManager] Element Action [type] successfully performed. With the following test data [123]. @05-05-2021 00:43:50.0112 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [CONTINUE]. @05-05-2021 00:43:50.0995 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [10]. @05-05-2021 00:43:53.0000 AM
+[ReportManager] Loaded Shared OpenCV @05-05-2021 00:43:53.0138 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be '10' for the 'text' attribute, element locator 'By.xpath: //tr/td/span[@class='product-quantity']'] and Actual [10]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:43:53.0470 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620168233138_userCanPlaceOrder_AssertElementAttribute_passed] @05-05-2021 00:43:53.0470 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [CONFIRM]. @05-05-2021 00:43:54.0372 AM
+[ReportManager] Element Action [getText] successfully performed. With the following test data [Your order has been successfully processed!]. @05-05-2021 00:43:57.0931 AM
+[ReportManager] Loaded Shared OpenCV @05-05-2021 00:43:58.0065 AM
+[ReportManager] AssertElementAttribute PASSED; Expected [Value Should be 'Your order has been successfully processed!' for the 'text' attribute, element locator 'By.xpath: //div[@class='title']/strong[contains(.,'successfully processed')]'] and Actual [Your order has been successfully processed!]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 00:43:58.0366 AM
+[ReportManager] Successfully created attachment [Screenshot - 1620168238065_userCanPlaceOrder_AssertElementAttribute_passed] @05-05-2021 00:43:58.0366 AM
+[ReportManager] Element Action [click] successfully performed. With the following test data [Click here for order details.]. @05-05-2021 00:44:00.0987 AM
+[ReportManager] Successfully created attachment [Animated Gif - userCanPlaceOrder] @05-05-2021 00:44:01.0003 AM
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @05-05-2021 00:44:04.0341 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.2.20210427]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
