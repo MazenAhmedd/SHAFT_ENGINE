@@ -28,7 +28,6 @@ public class restful_booker_TestCase {
         reqDELApi_bookings = new ReqDELApi_Bookings(apiObject);
         reqPOSTAPI_createBooking = new ReqPOSTAPI_createBooking(apiObject);
         restfullBookerAPIObject.login("admin", "password123");
-
     }
     @Test
     void getAllBookings(){
