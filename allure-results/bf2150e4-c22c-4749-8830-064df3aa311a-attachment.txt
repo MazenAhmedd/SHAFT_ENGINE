@@ -1,0 +1,11 @@
+
+################################################################################################################################################
+Starting Execution:	[3 out of 4] test cases in the current suite
+Test Method:		[restful_booker_demo.api_tests.restful_booker_TestCase.deleteBookingById]
+################################################################################################################################################
+[ReportManager] Response status code: [201], status line: [HTTP/1.1 201 Created] @05-05-2021 22:39:41.0490 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:41.0491 PM
+[ReportManager] AssertEquals PASSED; Expected [201] and Actual [201]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:41.0492 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "DELETE" | Target Status Code: "201" | Service URL: "https://restful-booker.herokuapp.com/booking/1" | Content Type: "application/json" | Response Time: "1287ms"]. @05-05-2021 22:39:41.0519 PM
+[ReportManager] Successfully created attachment [API Response - Body] @05-05-2021 22:39:41.0521 PM
+[ReportManager] AssertEquals PASSED; Expected [Created] and Actual [Created]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:41.0522 PM

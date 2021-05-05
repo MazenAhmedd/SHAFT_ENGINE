@@ -1,0 +1,98 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.2.20210427]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @05-05-2021 22:39:34.0305 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:34.0319 PM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:34.0328 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/auth" | Content Type: "application/json" | Response Time: "2899ms"]. @05-05-2021 22:39:35.0893 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @05-05-2021 22:39:35.0899 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @05-05-2021 22:39:35.0900 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [token]. @05-05-2021 22:39:35.0923 PM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 4] test cases in the current suite
+Test Method:		[restful_booker_demo.api_tests.restful_booker_TestCase.getAllBookings]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @05-05-2021 22:39:37.0530 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:37.0532 PM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:37.0533 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking/" | Content Type: "*/*" | Response Time: "1438ms"]. @05-05-2021 22:39:37.0581 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @05-05-2021 22:39:38.0221 PM
+
+################################################################################################################################################
+Starting Execution:	[2 out of 4] test cases in the current suite
+Test Method:		[restful_booker_demo.api_tests.restful_booker_TestCase.getBookingById]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @05-05-2021 22:39:40.0130 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:40.0131 PM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:40.0133 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking/1" | Content Type: "*/*" | Response Time: "1188ms"]. @05-05-2021 22:39:40.0180 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @05-05-2021 22:39:40.0182 PM
+
+################################################################################################################################################
+Starting Execution:	[3 out of 4] test cases in the current suite
+Test Method:		[restful_booker_demo.api_tests.restful_booker_TestCase.deleteBookingById]
+################################################################################################################################################
+[ReportManager] Response status code: [201], status line: [HTTP/1.1 201 Created] @05-05-2021 22:39:41.0490 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:41.0491 PM
+[ReportManager] AssertEquals PASSED; Expected [201] and Actual [201]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:41.0492 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "DELETE" | Target Status Code: "201" | Service URL: "https://restful-booker.herokuapp.com/booking/1" | Content Type: "application/json" | Response Time: "1287ms"]. @05-05-2021 22:39:41.0519 PM
+[ReportManager] Successfully created attachment [API Response - Body] @05-05-2021 22:39:41.0521 PM
+[ReportManager] AssertEquals PASSED; Expected [Created] and Actual [Created]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:41.0522 PM
+
+################################################################################################################################################
+Starting Execution:	[4 out of 4] test cases in the current suite
+Test Method:		[restful_booker_demo.api_tests.restful_booker_TestCase.createBooking_getBooking_DelBookingById]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @05-05-2021 22:39:42.0868 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:42.0869 PM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:42.0870 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking" | Content Type: "application/json" | Response Time: "1325ms"]. @05-05-2021 22:39:42.0899 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @05-05-2021 22:39:42.0900 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @05-05-2021 22:39:42.0902 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [bookingid]. @05-05-2021 22:39:42.0936 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @05-05-2021 22:39:44.0650 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:44.0651 PM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:44.0652 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking/13" | Content Type: "*/*" | Response Time: "1702ms"]. @05-05-2021 22:39:44.0679 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @05-05-2021 22:39:44.0681 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [firstname]. @05-05-2021 22:39:44.0707 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [lastname]. @05-05-2021 22:39:44.0740 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [totalprice]. @05-05-2021 22:39:44.0768 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [depositpaid]. @05-05-2021 22:39:44.0797 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [bookingdates.checkin]. @05-05-2021 22:39:44.0830 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [bookingdates.checkout]. @05-05-2021 22:39:44.0866 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [additionalneeds]. @05-05-2021 22:39:44.0895 PM
+[ReportManager] VerifyEquals PASSED; Expected [Mazen] and Actual [Mazen]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:44.0896 PM
+[ReportManager] VerifyEquals PASSED; Expected [Ahmed] and Actual [Ahmed]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:44.0897 PM
+[ReportManager] VerifyEquals PASSED; Expected [10000] and Actual [10000]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:44.0898 PM
+[ReportManager] VerifyEquals PASSED; Expected [true] and Actual [true]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:44.0898 PM
+[ReportManager] VerifyEquals PASSED; Expected [2021-12-18] and Actual [2021-12-18]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:44.0899 PM
+[ReportManager] VerifyEquals PASSED; Expected [2021-12-19] and Actual [2021-12-19]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:44.0899 PM
+[ReportManager] VerifyEquals PASSED; Expected [Every Thing you have ] and Actual [Every Thing you have ]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:44.0900 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @05-05-2021 22:39:46.0368 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:46.0368 PM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:46.0369 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking/" | Content Type: "*/*" | Response Time: "1428ms" | URL Arguments: "firstname=Mazen&lastname=Ahmed"]. @05-05-2021 22:39:46.0397 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @05-05-2021 22:39:46.0399 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [bookingid[0]]. @05-05-2021 22:39:46.0499 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @05-05-2021 22:39:47.0711 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:47.0712 PM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:47.0713 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/booking/13" | Content Type: "*/*" | Response Time: "1199ms"]. @05-05-2021 22:39:47.0742 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @05-05-2021 22:39:47.0744 PM
+[ReportManager] Response status code: [201], status line: [HTTP/1.1 201 Created] @05-05-2021 22:39:49.0207 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:49.0208 PM
+[ReportManager] AssertEquals PASSED; Expected [201] and Actual [201]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:49.0208 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "DELETE" | Target Status Code: "201" | Service URL: "https://restful-booker.herokuapp.com/booking/13" | Content Type: "application/json" | Response Time: "1455ms"]. @05-05-2021 22:39:49.0213 PM
+[ReportManager] Successfully created attachment [API Response - Body] @05-05-2021 22:39:49.0215 PM
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @05-05-2021 22:39:49.0249 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.2.20210427]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################

@@ -1,0 +1,7 @@
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @05-05-2021 22:39:34.0305 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @05-05-2021 22:39:34.0319 PM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @05-05-2021 22:39:34.0328 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://restful-booker.herokuapp.com/auth" | Content Type: "application/json" | Response Time: "2899ms"]. @05-05-2021 22:39:35.0893 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @05-05-2021 22:39:35.0899 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @05-05-2021 22:39:35.0900 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [token]. @05-05-2021 22:39:35.0923 PM

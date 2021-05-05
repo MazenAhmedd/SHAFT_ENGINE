@@ -43,8 +43,6 @@ public class PlaceOrderTest {
         paymentMethodPage = new PaymentMethodPage(driver);
         confirmOrderPage = new ConfirmOrderPage(driver);
         creditCardPage = new CreditCardPage(driver);
-
-
     }
 
     Faker faker = new Faker();
@@ -81,7 +79,7 @@ public class PlaceOrderTest {
     private String fax = faker.phoneNumber().phoneNumber();
     private String shippingMethod = "next day air ";
     private String PaymentMethod = "creditCard";
-    private String holderName = "Mazen Ahmed";
+    private String holderName = faker.name().fullName();
     private String CardNumber = "371449635398431";
     private String Month = "12";
     private String Year = "2025";

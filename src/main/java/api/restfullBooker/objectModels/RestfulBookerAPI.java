@@ -24,7 +24,8 @@ public class RestfulBookerAPI {
         authentication.put("username", userName);
         authentication.put("password", password);
         Response createToken =
-                apiObject.buildNewRequest(auth_serviceName, RestActions.RequestType.POST)
+                apiObject.buildNewRequest(auth_serviceName,
+                        RestActions.RequestType.POST)
                         .setContentType(ContentType.JSON)
                         .setRequestBody(authentication).performRequest();
         String token = RestActions.getResponseJSONValue(createToken, "token");

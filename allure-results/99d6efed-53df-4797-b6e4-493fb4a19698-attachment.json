@@ -1,0 +1,14 @@
+{
+  "booking": {
+    "firstname": "Mazen",
+    "additionalneeds": "Every Thing you have ",
+    "bookingdates": {
+      "checkin": "2021-12-18",
+      "checkout": "2021-12-19"
+    },
+    "totalprice": 10000,
+    "depositpaid": true,
+    "lastname": "Ahmed"
+  },
+  "bookingid": 13
+}
